@@ -28,7 +28,7 @@ else
                 <textarea asp-for="Description" class="form-control"></textarea>
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
-            <partial name="_UpsertButtons" model="@Model.Id">
+            <partial name="_UpsertButtons" model="@Model.Id"/>
         </form>
     </div>
 </div>
